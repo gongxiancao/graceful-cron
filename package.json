@@ -1,0 +1,36 @@
+{
+  "name": "graceful-cron",
+  "version": "1.0.0",
+  "description": "cron wrapper allow graceful shutdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongxiancao/graceful-cron.git"
+  },
+  "keywords": [
+    "graceful",
+    "cron"
+  ],
+  "author": "GongXian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongxiancao/graceful-cron/issues"
+  },
+  "homepage": "https://github.com/gongxiancao/graceful-cron#readme",
+  "dependencies": {
+    "cron": "^1.1.1",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "sinon": "^1.17.5"
+  }
+}
